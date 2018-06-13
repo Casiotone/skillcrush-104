@@ -1,5 +1,34 @@
 /** Add a comment at the beginning of your CSS styles with your name**/
 
+
+/*****denfer's advice**********/
+.denfer-advice {
+  background-color:#ff8080;
+}
+.denfer-advice h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  line-height: 40px;
+  margin: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-variant: small-caps;
+}
+.denfer-advice h4{
+  font-family: 'Courier', sans-serif;
+  font-size: 25px;
+  color:#000000;
+  text-align: center;
+}
+.denfer-advice p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 20px;
+  text-align: center;
+}
+
 /***** Lukas Vézina's Advices *****/
 .lukas-advice{
   background-color: #FCFCFC;
@@ -53,6 +82,39 @@
 .lukas-advice footer p{
   font-size: 15px;
 }
+/***** Eileen's advice *****/
+.eileen-advice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: LightSlateGray;
+}
+/* container to hold the background color */
+.eileen-advice .surround {
+  padding: 15px 50px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin: 40px;
+  background: LightGrey;
+}
+/* added font family and letter-spacing to prevent css override lower in this file */
+.eileen-advice h1 {
+  font-family: Arial, sans-serif;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+.eileen-advice h2 {
+  color: black;
+}
+.eileen-advice .go-ahead {
+  font-size: 24px;
+  font-style: italic;
+  margin: 50px 10px;
+}
+
 
 /***** Bryan Herbert's advice *****/
 
@@ -175,7 +237,7 @@
 .jens-advice h4,
 .jens-advice p {
   font-family: 'Verdana', sans-serif;
-  color: #000066;
+  color: #000036;
 }
 
 .jens-advice footer {
@@ -188,13 +250,13 @@
 
 .rachelkamath-advice {
   padding: 0 80px;
-  background-color: #00cc99;
+  background-color: #00cc97;
   font-family: Verdana, Geneva, sans-serif;
 }
 
 .rachelkamath-advice h1 {
   text-align: center;
-  color: #126272;
+  color: #125272;
 }
 
 .rachelkamath-advice h4 {
@@ -11559,8 +11621,8 @@ body.nancys-advice-again {
 
 .advice-jools footer p {
   font-size: 12px;
-}  
-  
+}
+
 .melissamanousos-advice {
   background-color: rgba(1, 147, 241, 0.71);
   color: rgb(102, 17, 198);
